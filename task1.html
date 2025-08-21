@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Webpage</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f78a66, #59b9e9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 800px;
+      background-color: rgb(232, 111, 111);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(202, 100, 100, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    .bio {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #bd0e0e;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .bio {
+        font-size: 1rem;
+      }
+
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="C:\Users\Admin\Downloads\WhatsApp Image 2025-07-21 at 4.11.19 PM.jpeg" alt="Profile Picture" />
+    <h1>Mohit Khakhriya</h1>
+    <p class="bio">
+      Hello! I'm a passionate web developer and tech enthusiast. I love creating
+      elegant and user-friendly websites. In my spare time, I enjoy hiking, reading, and learning new technologies.
+    </p>
+  </div>
+</body>
+</html>
